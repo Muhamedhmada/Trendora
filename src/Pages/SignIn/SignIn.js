@@ -22,7 +22,7 @@ function SignIn(){
             <p>forget password?</p>
           </div>
           {/* value func className */}
-          <Button value={"sign in"}/>
+          <Button func={()=>nav('/home-page')} value={"sign in"}/>
           <p>Don't have an account? <b onClick={()=>nav('/sign-up')}>create account</b> </p>
         </div>
       </div>

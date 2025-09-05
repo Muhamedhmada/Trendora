@@ -41,7 +41,7 @@ function SignUp(){
             <label htmlFor="checkbox"> agree with <span>terms & condition</span></label>
           </div>
           {/* value func className */}
-          <Button onClick={()=>createAccount()} value={"create account"}/>
+          <Button func={()=>createAccount()} value={"create account"}/>
           <p>Already have an account? <b onClick={()=>nav('/')}>Sign in</b> </p>
         </div>
       </div>
