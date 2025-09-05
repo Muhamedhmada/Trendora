@@ -1,0 +1,133 @@
+.shopLandPage{
+  height: 580px;
+  background: linear-gradient(180deg, #D8C3A5 0%, #FFFFFF 48.55%, #E3D4BF 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  position: relative;
+}
+.shopLandPage >.starEffect:first-child{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.shopLandPage::after{
+  position: absolute;
+  content: url('../../Assets/Images/shopRightEffect.png');
+  top: 10px;
+  right: 50px;
+}
+.shopLandPage .info{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.shopLandPage .info div{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+.shopLandPage .info div:nth-child(2) .starEffect:first-child{
+  position: absolute;
+  right: -50px;
+  top: -45px;
+}
+.shopLandPage .info div:nth-child(2) .starEffect:last-child{
+  position: absolute;
+  left: -60px;
+  bottom: -30px;
+}
+.shopLandPage .info >div h2{
+  color: var(--font-color-two);
+  font-family: oregano;
+  font-family: Oregano;
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+}
+.shopLandPage .info >div p{
+  color: var(--font-color-one);
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 24px;
+}
+.shopLandPage .sale{
+  border-width: 1px 0;
+  border-color: var(--font-color-two);
+  border-style: solid;
+  padding: 30px 0;
+}
+.shopLandPage .sale h2{
+  font-family: Outfit !important;
+  color: var(--font-color-two);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.shopLandPage .sale h3{
+  color: var(--font-color-two);
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+.shopLandPage .info >button{
+  background-color: #8B6441C7;
+  color:white ;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 20px;
+  position: relative;
+}
+.shopLandPage .info >button::after{
+  position: absolute;
+  content: url('../../Assets/Images/ShopBtnEffect.png');
+  right: -20px;
+  bottom: -20px;
+}
+.shopLandPage .image{
+  /* flex: 1; */
+  /* width: 100%; */
+  height: 100%;
+  width: fit-content;
+  width: 40%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+
+.shopLandPage .image img{
+  height: calc(100% + 7%);
+  position: relative;
+  bottom: 39px;
+}
+.shopLandPage .image img:nth-child(1){
+  height: calc(100% + 11%);
+  position: relative;
+  left: 310px;
+  opacity: .5;
+  top: -62px;
+  /* bottom: 50px; */
+}
+.shopLandPage .image::before{
+  position: absolute;
+  content: url('../../Assets/Images/imageShadowEffect.png');
+  bottom: 80px;
+  left: 302px;
+  z-index: 1;
+}
+.shopLandPage .image .starEffect {
+  content: "";
+  position: absolute;
+  bottom: 260px;
+  right: -100px;
+  z-index: 1;
+}

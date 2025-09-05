@@ -1,0 +1,84 @@
+.productCard-container{
+  width: 280px;
+  height: 440px;
+  position: relative;
+  border: .3px solid var(--font-color-one);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.productCard-container >div{
+  padding:10px;
+}
+.productCard-container button.bestSeller{
+  color: var(--font-color-two);
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: none !important;
+}
+.productCard-container .liked{
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  padding: 0;
+}
+.productCard-container .productImage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productCard-container .productImage img{
+  max-height: 180px;
+  margin-top: 10px;
+}
+.productCard-container .productInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-transform: capitalize;
+}
+.productCard-container .productInfo p{
+  color: var(--third-color);
+  font-size: 12px;
+  font-family: cairo;
+}
+.productCard-container .productInfo h4{
+  font-weight: 400;
+  font-size: 15px;
+}
+.productCard-container .price{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  border-top: 1px solid var(--font-color-one);
+  padding: 15px 10px;
+}
+.productCard-container .price div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.productCard-container .price >div p:first-child{
+  font-weight: 500;
+  font-size: 15px;
+}
+.productCard-container .price p.offer{
+  color: var(--font-color-one);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px;
+}
+.productCard-container .price p del{
+  color: var(--third-color);
+}
+.productCard-container .price p:nth-child(2){
+  color: var(--font-color-one);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

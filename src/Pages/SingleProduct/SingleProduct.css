@@ -1,0 +1,21 @@
+.singleProduct-container{
+  width: 100%;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+.singleProduct-container .slider{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.singleProduct-container .slider h2{
+  color: var(--font-color-two);
+  font-weight: 600;
+  font-size: 40px;
+}

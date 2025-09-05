@@ -1,0 +1,106 @@
+.buyingCard-container{
+  background-color: #F8F6F4;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.buyingCard-container .image img{
+  /* width: 214px; */
+  height: 239px;
+  object-fit: cover;
+}
+.buyingCard-container .info{
+  flex: 1;
+}
+.buyingCard-container .info,
+.buyingCard-container .three{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+/* header */
+.buyingCard-container .info .header{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.buyingCard-container .info .header p{
+  text-transform:capitalize ;
+  color: var(--input-border-color);
+  font-size: 20px;
+}
+.buyingCard-container .info .header h3{
+  font-size: 36px;
+  font-weight: 400;
+}
+
+/* color and size */
+
+.buyingCard-container .info .color,
+.buyingCard-container .info .size{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.buyingCard-container .info .color p,
+.buyingCard-container .info .size p{
+  font-size: 22px;
+  text-transform: capitalize;
+}
+.buyingCard-container .info .color p:nth-child(2){
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.buyingCard-container .size-color{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.buyingCard-container .three .prices{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-self: flex-end;
+}
+.buyingCard-container .three .prices del{
+  color: #838383B2;
+  font-size: 22px;
+}
+.buyingCard-container .three .prices b{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* btns  */
+.buyingCard-container .btns{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.buyingCard-container .btns .counter{
+  align-items: stretch;
+  height: 100%;
+  background-color: white;
+  width: 150px;
+  padding: 10px;
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--font-color-two);
+  border-radius: 5px;
+}
+.buyingCard-container .btns .icon{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+}

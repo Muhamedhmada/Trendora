@@ -1,0 +1,9 @@
+.logout-container h2{
+  color: var(--font-color-two);
+  font-size: 40px;
+  font-weight: 500;
+}
+.logout-container p{
+  color: #B7B3AF;
+  font-size: 24px;
+}

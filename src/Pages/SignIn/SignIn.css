@@ -1,0 +1,81 @@
+.signIn-container{
+  height: 100vh;
+  /* background-color: var(--secondary-color); */
+  /* background-color: #FBF7F4; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signIn-container .signIn-content{
+  display: flex;
+  /* height: 90%;
+  width: 90%;
+  border-radius: 20px; */
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.signIn-container .signIn-content .image{
+  width: 500px;
+  height: 100%;
+}
+
+.signIn-container .signIn-content .image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* inputs  */
+
+.signIn-container .signIn-content .form{
+  background-color: #FBF7F4;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px;
+  flex: 1;
+  position: relative;
+  align-content: center;
+}
+
+.signIn-container .signIn-content .form::before{
+  position: absolute;
+  content: "";
+  background-color: #FBF7F4;
+  top: 0;
+  left: -20px;
+  height: 100%;
+  width: 50px;
+  border-radius:20px 0 0 20px ;
+}
+.signIn-container .signIn-content .form input{
+  background-color: transparent;
+}
+.signIn-container .signIn-content .form .password{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.signIn-container .signIn-content .form .password p{
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform:capitalize ;
+  text-decoration: underline;
+}
+
+.signIn-container .signIn-content .form button{
+  padding: 20px;
+  width: 100%;
+}
+.signIn-container .signIn-content .form >p{
+  text-align: center;
+}
+.signIn-container .signIn-content .form:last-child{
+  font-size: 20px;
+}
+.signIn-container .signIn-content .form:last-child b{
+  text-transform: capitalize;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.formHeader-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.formHeader-container h2{
+  color: var(--font-color-two);
+  font-weight: 600 !important;
+  font-size: 48px !important;
+}
+.formHeader-container p{
+  color: #8B6441 !important;
+  font-size: 24px !important;
+}

@@ -1,13 +1,47 @@
-body {
+@import url('./Assets/Responsive.css');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  border: 0;
+  box-sizing: border-box;
+  line-height: 100%;
+  font-style: Regular;
+  font-family: Outfit;
+}
+button , input{
+  outline: 0;
+  border: 0;
+}
+a{
+  text-decoration: none;
+}
+button , label , input::placeholder , li , h1 , h2 , h3{
+  text-transform: capitalize;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  padding: 30px;
+}
+ .content{
+   width: 80%;
+   margin: auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* swiper js */
+
+.swiper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.swiper-slide{
+  display: flex !important;
+  justify-content: center ;
+  align-items: center ;
 }

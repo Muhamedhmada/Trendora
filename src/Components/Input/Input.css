@@ -1,0 +1,58 @@
+.input-container div,
+.selectInput{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+.input-container div label,
+.selectInput label{
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--font-color-two);
+}
+.input-container div input,
+.selectInput select{
+  color: var(--font-color-two);
+  height: 55px;
+  padding: 15px;
+  border: 1px solid var(--input-border-color);
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  position: relative;
+}
+select{
+  box-sizing: border-box;
+  line-height: 1.5;
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance:none ;
+  padding: 0px 15px !important;
+}
+.input-container div input::placeholder{
+  color: var(--input-placeholder-color);
+  font-size: 14px;
+  font-weight: 500;
+  /* font-family: Inter; */
+}
+
+/* passord icon */
+
+.input-container .icon{
+  color: var(--input-border-color);
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* two input style */
+.twoInput{
+  display: flex;
+  gap: 20px;
+}
+.twoInput .input-container{
+  width: 100%;
+}

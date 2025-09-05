@@ -1,0 +1,74 @@
+.priceSummary-container{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px;
+  border: 1px solid #D8C3A5B2;
+  border-radius: 10px;
+}
+.priceSummary-container >h3{
+  font-size: 36px;
+  font-weight: 500;
+}
+.priceSummary-container ul{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+}
+.priceSummary-container ul li{
+  margin: 0 !important;
+  padding: 20px 0 25px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 32px;
+  border-bottom: 1px solid #B1B1B1;
+}
+.priceSummary-container ul li span{
+  font-size: 24px;
+  font-weight: 500;
+}
+.priceSummary-container ul li:first-child span{
+  font-size: 32px;
+  font-weight: 600;
+}
+.priceSummary-container div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.priceSummary-container div h4{
+  font-size: 32px;
+  font-weight: 400;
+}
+.priceSummary-container div p{
+  font-size: 24px;
+  color: #B7B3AF;
+}
+.priceSummary-container .input{
+  display: flex;
+  position: relative;
+}
+.priceSummary-container .input input{
+  height: 80px;
+  padding: 40px;
+  border-radius: 50px;
+  background-color: #F5F5F5;
+  font-size: 24px;
+}
+.priceSummary-container .input button{
+  position: absolute;
+  right: 0;
+  height: 100%;
+  padding: 20px;
+  border-radius:50px ;
+  width: 200px;
+}
+.priceSummary-container button{
+  background-color: var(--primary-color);
+  color: var(--font-color-two);
+  padding: 20px;
+  border-radius:10px ;
+  font-size: 32px;
+}

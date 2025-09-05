@@ -1,0 +1,15 @@
+.starEffect{
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  gap: 0px !important;
+}
+.starEffect .big{
+  color: var(--font-color-two);
+}
+.starEffect .small{
+  color: var(--font-color-one);
+  position: relative;
+  bottom: -13px;
+  left: -5px;
+}

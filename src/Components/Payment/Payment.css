@@ -1,0 +1,45 @@
+.payment-container .method{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid #7D7D7D;
+  border-radius: 10px;
+  height: 100px;
+}
+.payment-container .method .logo{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.payment-container .method .logo img{
+  width: 80px;
+  height: fit-content;
+}
+.payment-container .method .logo p{
+  font-size: 24px;
+}
+.payment-container .method a , .payment-container .method span{
+  font-size: 20px;
+  font-weight: 400;
+  color: #5AAB19;
+  text-transform: capitalize;
+}
+.payment-container .method span{
+  color: red;
+}
+.payment-container .credit{
+  height: 100%;
+  padding: 30px;
+  border: 1px solid #7D7D7D;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 10px;
+}
+
+.payment-container .credit h3{
+  color: var(--font-color-two);
+  font-weight: 400;
+  font-size: 24px;
+}

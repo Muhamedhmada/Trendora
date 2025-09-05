@@ -1,0 +1,9 @@
+.offerBtn button{
+  background-color: #E6FAD9;
+  color: #5AAB19;
+  padding: 10px 20px;
+  border: 2px dashed #5AAB19;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}

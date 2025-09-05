@@ -1,0 +1,72 @@
+
+/* ============= 🖥 Extra large devices (large desktops) ============= */
+/* 1200px فأكتر */
+@media (min-width: 1200px) {
+  /* styles هنا */
+}
+
+/* ============= 🖥 Large devices (desktops) ============= */
+/* من 992px لـ 1199px */
+@media (max-width: 1199.98px) {
+  
+  /* .navbar-container .navbar-content{
+    width: 100% !important;
+  } */
+  .navbar-container .navbar-content .links{
+    display: none;
+  }
+  .navbar-container .navbar-content .icons .icon.bars{
+    display: flex ;
+  }
+}
+
+/* ============= 💻 Medium devices (tablets) ============= */
+/* من 768px لـ 991px */
+@media (max-width: 991.98px) {
+}
+/* ============= 📱 Small devices (landscape phones) ============= */
+/* من 576px لـ 767px */
+@media (max-width: 768px) {
+  .collectionSlider-container{
+    width: 100% !important ;
+  }
+  .collectionSlider-container .prevButton{
+    left: 50px !important;
+  }
+  .collectionSlider-container .nextButton{
+    right: 50px !important;
+  }
+}
+
+/* ============= 📱 Extra Small devices (phones) ============= */
+/* أقل من 576px */
+@media (max-width: 575.98px) {
+  /* styles هنا */
+}
+@media (max-width: 447.98px) {
+}
+@media (max-width:411.98px) {
+  
+}
+
+@media (max-width:376px) {
+}
+
+/* special cases */
+
+
+@media (max-width:1250px) {
+
+}
+
+
+@media (max-width:526px) {
+  .collectionSlider-container .prevButton{
+    left: 20px !important;
+    top: 40% !important;
+  }
+  .collectionSlider-container .nextButton{
+    right: 20px !important;
+    top: 40% !important;
+  }
+}

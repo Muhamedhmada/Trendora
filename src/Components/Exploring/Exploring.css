@@ -1,0 +1,28 @@
+.exploring-container .exploring-content{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 50px;
+  padding: 30px 0 0 0;
+}
+.exploring-container .exploring-content .cards{
+  display: flex;
+  gap: 55px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.exploring-container .cards .exploreCard-container:nth-child(2) .image{
+  bottom: -70px;
+  right: 40px;
+}
+.exploring-container .cards .exploreCard-container:nth-child(2) .image img{
+  width: 200px;
+  object-fit: cover;
+}
+.exploring-container .cards .exploreCard-container:nth-child(3) .image{
+  /* bottom: -50px; */
+  right: 50px;
+}
+.exploring-container .cards .exploreCard-container:nth-child(3) .image img{
+  width: 180px;
+}

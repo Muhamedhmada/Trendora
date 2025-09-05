@@ -1,0 +1,30 @@
+.collectionSlider-container{
+  width: 80%;
+  margin: 50px 0;
+  /* overflow: hidden; */
+  position: relative;
+}
+.collectionSlider-container .prevButton , 
+.collectionSlider-container .nextButton{
+  color: var(--font-color-one);
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--font-color-one);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.collectionSlider-container .prevButton:disabled , 
+.collectionSlider-container .nextButton:disabled{
+  background-color:rgba(235, 235, 235, 1) ;
+  cursor: not-allowed;
+}
+.collectionSlider-container .prevButton{
+  left: -80px;
+}
+.collectionSlider-container .nextButton{
+  right: -80px;
+}
