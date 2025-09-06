@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { AngleDown, AngleUp } from '../../Assets/SVGs'
+import { AngleDown, AngleUp, Prev } from '../../Assets/SVGs'
 import './AdditionlProdInfo.css'
 
 function AdditionlProdInfo({data}){
@@ -9,7 +9,7 @@ function AdditionlProdInfo({data}){
   // console.log(ProductData?.description)
 
   const [isOpen , setIsOpen] = useState({
-    one : true,
+    one : false,
     two: false,
     three :false,
     four:false
@@ -18,7 +18,7 @@ function AdditionlProdInfo({data}){
     <div className="additionalProdInfo-container">
 
       <div>
-        <div className="header">
+        <div className="header" onClick={()=>setIsOpen((prev)=>({...Prev,one:!isOpen.one}))}>
           Descriotion 
           {isOpen.one?<AngleUp width="30px"/>:<AngleDown width="30px"/>}
         </div>
@@ -36,7 +36,7 @@ function AdditionlProdInfo({data}){
         </div>
       </div>
       <div>
-        <div className="header">
+        <div className="header" onClick={()=>setIsOpen((prev)=>({...Prev,two:!isOpen.two}))}>
         composition 
           {isOpen.one?<AngleUp width="30px"/>:<AngleDown width="30px"/>}
         </div>
@@ -52,7 +52,7 @@ function AdditionlProdInfo({data}){
         </div>
       </div>
       <div>
-        <div className="header">
+        <div className="header" onClick={()=>setIsOpen((prev)=>({...Prev,three:!isOpen.three}))}>
           modal Parameter 
           {isOpen.one?<AngleUp width="30px"/>:<AngleDown width="30px"/>}
         </div>
@@ -67,7 +67,7 @@ function AdditionlProdInfo({data}){
         </div>
       </div>
       <div>
-        <div className="header">
+        <div className="header" onClick={()=>setIsOpen((prev)=>({...Prev,four:!isOpen.four}))}>
         product Care 
           {isOpen.one?<AngleUp width="30px"/>:<AngleDown width="30px"/>}
         </div>

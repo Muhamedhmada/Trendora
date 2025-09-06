@@ -10,7 +10,7 @@ import PasswordManager from '../../Components/PasswordManager/PasswordManager'
 import Logout from '../../Components/Logout/Logout'
 import Payment from '../../Components/Payment/Payment'
 function Profile(){
-  const [showedComponent , setShowedComponent] = useState("payment")
+  const [showedComponent , setShowedComponent] = useState("personalInfo")
 
   const choosedComponent = ()=>{
 
